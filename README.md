@@ -47,11 +47,11 @@ hex_hashes = [
 def merkle_parent_level(hash_list):
     '''Takes a list of binary hashes and returns a list that's half
     the length'''
-    # Exercise 2.2: if the list has exactly 1 element raise an error
-    # Exercise 2.2: initialize next level
-    # Exercise 2.2: loop over every pair (use: for i in range(0, len(hash_list), 2))
-        # Exercise 2.2: get the merkle parent of i and i+1 hashes
-        # Exercise 2.2: append parent to parent level
-    # Exercise 2.2: return parent level
+    # if the list has exactly 1 element raise an error
+    # initialize next level
+    # loop over every pair (use: for i in range(0, len(hash_list), 2))
+        # get the merkle parent of i and i+1 hashes
+        # append parent to parent level
+    # return parent level
     pass
 ```
